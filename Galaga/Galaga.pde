@@ -16,8 +16,8 @@ void settings()
 void setup()
 {
   objects = new HashMap<String, GameObject>();
-  myShooter = new Shooter();
-  myShooter.updatePosition(new PVector(250, 400));
+  //myShooter = new Shooter();
+  //myShooter.updatePosition(new PVector(250, 400));
   objects.put("SHOOTER", myShooter); //0
   objects.put("ENEMY_1", new Enemy(new PVector(100, 0), 5)); //1
   
